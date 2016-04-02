@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF435AB21C9B82540083034A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435AB11C9B82540083034A /* main.m */; };
+		CF435AB51C9B82540083034A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435AB41C9B82540083034A /* AppDelegate.m */; };
+		CF435ABB1C9B82540083034A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF435AB91C9B82540083034A /* Main.storyboard */; };
+		CF435ABE1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF435ABC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodeld */; };
+		CF435AC01C9B82540083034A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF435ABF1C9B82540083034A /* Assets.xcassets */; };
+		CF435AC31C9B82540083034A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF435AC11C9B82540083034A /* LaunchScreen.storyboard */; };
+		CF435ACE1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435ACD1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.m */; };
+		CF435AD91C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435AD81C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.m */; };
+		CF435AE71C9B82BC0083034A /* sina.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF435AE61C9B82BC0083034A /* sina.rtf */; };
+		CF435AEA1C9B82E30083034A /* JSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF435AE91C9B82E30083034A /* JSTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF435ACA1C9B82550083034A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF435AA51C9B82540083034A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF435AAC1C9B82540083034A;
+			remoteInfo = Demo4_JS_GetImagesFromInternet;
+		};
+		CF435AD51C9B82550083034A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF435AA51C9B82540083034A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF435AAC1C9B82540083034A;
+			remoteInfo = Demo4_JS_GetImagesFromInternet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF435AAD1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo4_JS_GetImagesFromInternet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF435AB11C9B82540083034A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF435AB31C9B82540083034A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF435AB41C9B82540083034A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF435ABA1C9B82540083034A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF435ABD1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Demo4_JS_GetImagesFromInternet.xcdatamodel; sourceTree = "<group>"; };
+		CF435ABF1C9B82540083034A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF435AC21C9B82540083034A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF435AC41C9B82540083034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF435AC91C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_JS_GetImagesFromInternetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF435ACD1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_JS_GetImagesFromInternetTests.m; sourceTree = "<group>"; };
+		CF435ACF1C9B82550083034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF435AD41C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Demo4_JS_GetImagesFromInternetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF435AD81C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo4_JS_GetImagesFromInternetUITests.m; sourceTree = "<group>"; };
+		CF435ADA1C9B82550083034A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF435AE61C9B82BC0083034A /* sina.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = sina.rtf; sourceTree = "<group>"; };
+		CF435AE81C9B82E30083034A /* JSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTableViewController.h; sourceTree = "<group>"; };
+		CF435AE91C9B82E30083034A /* JSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF435AAA1C9B82540083034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435AC61C9B82550083034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435AD11C9B82550083034A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF435AA41C9B82540083034A = {
+			isa = PBXGroup;
+			children = (
+				CF435AAF1C9B82540083034A /* Demo4_JS_GetImagesFromInternet */,
+				CF435ACC1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests */,
+				CF435AD71C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests */,
+				CF435AAE1C9B82540083034A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF435AAE1C9B82540083034A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF435AAD1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.app */,
+				CF435AC91C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.xctest */,
+				CF435AD41C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF435AAF1C9B82540083034A /* Demo4_JS_GetImagesFromInternet */ = {
+			isa = PBXGroup;
+			children = (
+				CF435AB31C9B82540083034A /* AppDelegate.h */,
+				CF435AB41C9B82540083034A /* AppDelegate.m */,
+				CF435AE81C9B82E30083034A /* JSTableViewController.h */,
+				CF435AE91C9B82E30083034A /* JSTableViewController.m */,
+				CF435AE61C9B82BC0083034A /* sina.rtf */,
+				CF435AB91C9B82540083034A /* Main.storyboard */,
+				CF435ABF1C9B82540083034A /* Assets.xcassets */,
+				CF435AC11C9B82540083034A /* LaunchScreen.storyboard */,
+				CF435AC41C9B82540083034A /* Info.plist */,
+				CF435ABC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodeld */,
+				CF435AB01C9B82540083034A /* Supporting Files */,
+			);
+			path = Demo4_JS_GetImagesFromInternet;
+			sourceTree = "<group>";
+		};
+		CF435AB01C9B82540083034A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF435AB11C9B82540083034A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF435ACC1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF435ACD1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.m */,
+				CF435ACF1C9B82550083034A /* Info.plist */,
+			);
+			path = Demo4_JS_GetImagesFromInternetTests;
+			sourceTree = "<group>";
+		};
+		CF435AD71C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF435AD81C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.m */,
+				CF435ADA1C9B82550083034A /* Info.plist */,
+			);
+			path = Demo4_JS_GetImagesFromInternetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF435AAC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF435ADD1C9B82550083034A /* Build configuration list for PBXNativeTarget "Demo4_JS_GetImagesFromInternet" */;
+			buildPhases = (
+				CF435AA91C9B82540083034A /* Sources */,
+				CF435AAA1C9B82540083034A /* Frameworks */,
+				CF435AAB1C9B82540083034A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo4_JS_GetImagesFromInternet;
+			productName = Demo4_JS_GetImagesFromInternet;
+			productReference = CF435AAD1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF435AC81C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF435AE01C9B82550083034A /* Build configuration list for PBXNativeTarget "Demo4_JS_GetImagesFromInternetTests" */;
+			buildPhases = (
+				CF435AC51C9B82550083034A /* Sources */,
+				CF435AC61C9B82550083034A /* Frameworks */,
+				CF435AC71C9B82550083034A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF435ACB1C9B82550083034A /* PBXTargetDependency */,
+			);
+			name = Demo4_JS_GetImagesFromInternetTests;
+			productName = Demo4_JS_GetImagesFromInternetTests;
+			productReference = CF435AC91C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF435AD31C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF435AE31C9B82550083034A /* Build configuration list for PBXNativeTarget "Demo4_JS_GetImagesFromInternetUITests" */;
+			buildPhases = (
+				CF435AD01C9B82550083034A /* Sources */,
+				CF435AD11C9B82550083034A /* Frameworks */,
+				CF435AD21C9B82550083034A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF435AD61C9B82550083034A /* PBXTargetDependency */,
+			);
+			name = Demo4_JS_GetImagesFromInternetUITests;
+			productName = Demo4_JS_GetImagesFromInternetUITests;
+			productReference = CF435AD41C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF435AA51C9B82540083034A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF435AAC1C9B82540083034A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF435AC81C9B82550083034A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF435AAC1C9B82540083034A;
+					};
+					CF435AD31C9B82550083034A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF435AAC1C9B82540083034A;
+					};
+				};
+			};
+			buildConfigurationList = CF435AA81C9B82540083034A /* Build configuration list for PBXProject "Demo4_JS_GetImagesFromInternet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF435AA41C9B82540083034A;
+			productRefGroup = CF435AAE1C9B82540083034A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF435AAC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet */,
+				CF435AC81C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests */,
+				CF435AD31C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF435AAB1C9B82540083034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435AC31C9B82540083034A /* LaunchScreen.storyboard in Resources */,
+				CF435AE71C9B82BC0083034A /* sina.rtf in Resources */,
+				CF435AC01C9B82540083034A /* Assets.xcassets in Resources */,
+				CF435ABB1C9B82540083034A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435AC71C9B82550083034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435AD21C9B82550083034A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF435AA91C9B82540083034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435AB51C9B82540083034A /* AppDelegate.m in Sources */,
+				CF435AEA1C9B82E30083034A /* JSTableViewController.m in Sources */,
+				CF435ABE1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodeld in Sources */,
+				CF435AB21C9B82540083034A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435AC51C9B82550083034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435ACE1C9B82550083034A /* Demo4_JS_GetImagesFromInternetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF435AD01C9B82550083034A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF435AD91C9B82550083034A /* Demo4_JS_GetImagesFromInternetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF435ACB1C9B82550083034A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF435AAC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet */;
+			targetProxy = CF435ACA1C9B82550083034A /* PBXContainerItemProxy */;
+		};
+		CF435AD61C9B82550083034A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF435AAC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet */;
+			targetProxy = CF435AD51C9B82550083034A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF435AB91C9B82540083034A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF435ABA1C9B82540083034A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF435AC11C9B82540083034A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF435AC21C9B82540083034A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF435ADB1C9B82550083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF435ADC1C9B82550083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF435ADE1C9B82550083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo4_JS_GetImagesFromInternet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-GetImagesFromInternet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF435ADF1C9B82550083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Demo4_JS_GetImagesFromInternet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-GetImagesFromInternet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF435AE11C9B82550083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo4_JS_GetImagesFromInternetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-GetImagesFromInternetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_JS_GetImagesFromInternet.app/Demo4_JS_GetImagesFromInternet";
+			};
+			name = Debug;
+		};
+		CF435AE21C9B82550083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Demo4_JS_GetImagesFromInternetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-GetImagesFromInternetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Demo4_JS_GetImagesFromInternet.app/Demo4_JS_GetImagesFromInternet";
+			};
+			name = Release;
+		};
+		CF435AE41C9B82550083034A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo4_JS_GetImagesFromInternetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-GetImagesFromInternetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo4_JS_GetImagesFromInternet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF435AE51C9B82550083034A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Demo4_JS_GetImagesFromInternetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jiangsu.Demo4-JS-GetImagesFromInternetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Demo4_JS_GetImagesFromInternet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF435AA81C9B82540083034A /* Build configuration list for PBXProject "Demo4_JS_GetImagesFromInternet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435ADB1C9B82550083034A /* Debug */,
+				CF435ADC1C9B82550083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF435ADD1C9B82550083034A /* Build configuration list for PBXNativeTarget "Demo4_JS_GetImagesFromInternet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435ADE1C9B82550083034A /* Debug */,
+				CF435ADF1C9B82550083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF435AE01C9B82550083034A /* Build configuration list for PBXNativeTarget "Demo4_JS_GetImagesFromInternetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435AE11C9B82550083034A /* Debug */,
+				CF435AE21C9B82550083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF435AE31C9B82550083034A /* Build configuration list for PBXNativeTarget "Demo4_JS_GetImagesFromInternetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF435AE41C9B82550083034A /* Debug */,
+				CF435AE51C9B82550083034A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF435ABC1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF435ABD1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodel */,
+			);
+			currentVersion = CF435ABD1C9B82540083034A /* Demo4_JS_GetImagesFromInternet.xcdatamodel */;
+			path = Demo4_JS_GetImagesFromInternet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF435AA51C9B82540083034A /* Project object */;
+}
